@@ -19,11 +19,8 @@ flutter run
   
 ```firebase_auth``` is a Flutter plugin that provides authentication services using Firebase Authentication. It allows users to sign in with email and password, phone number, Google, Facebook, and more.
   
-```cloud_firestore``` is a Flutter plugin that provides access to Cloud Firestore, a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud Platform. It allows for real-time data syncing and querying.
-  
-```google_sign_in``` is a Flutter plugin that allows users to sign in with Google. It provides methods to initiate Google Sign-In flow and obtain user credentials, which can then be used for authentication and accessing Google services.
-  
+```cloud_firestore``` is a Flutter plugin that provides access to Cloud Firestore, a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud Platform. It allows for real-time data syncing and querying.  
 
 # Version
-## Flutter Version 3.16.1
-## Dart Version 3.2.1
+### Flutter Version 3.16.1
+### Dart Version 3.2.1
