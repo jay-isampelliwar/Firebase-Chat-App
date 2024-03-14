@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => AuthenticationProvider()),
       ],
       child: MaterialApp(
+        title: 'Chat App',
         debugShowCheckedModeBanner: false,
         theme: appTheme(),
         home: FirebaseAuth.instance.currentUser == null
