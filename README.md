@@ -2,7 +2,7 @@
 
 This app facilitates seamless communication between users. It offers real-time messaging. Built with Flutter, it utilizes Firebase for backend services, including Firebase Authentication, Cloud Firestore for data storage, and Google Sign-In for user authentication.
 
-# Installation and Run Guide
+# Installation Guide
 ```
 
 git clone https://github.com/jay-isampelliwar/Firebase-Chat-App
