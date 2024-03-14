@@ -17,18 +17,21 @@ class MessageInput extends StatelessWidget {
           child: AppTextField(hintText: "Message", controller: controller),
         ),
         const SizedBox(width: 8),
-        Container(
-          padding: const EdgeInsets.all(4.0),
-          decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.onBackground,
-            shape: BoxShape.circle,
-          ),
-          child: Align(
-            child: IconButton(
-              onPressed: onSend,
-              icon: Icon(
-                Icons.send,
-                color: Theme.of(context).scaffoldBackgroundColor,
+        GestureDetector(
+          onTap: onSend,
+          child: Container(
+            padding: const EdgeInsets.all(4.0),
+            decoration: BoxDecoration(
+              color: Theme.of(context).colorScheme.onBackground,
+              shape: BoxShape.circle,
+            ),
+            child: Align(
+              child: IconButton(
+                onPressed: onSend,
+                icon: Icon(
+                  Icons.send,
+                  color: Theme.of(context).scaffoldBackgroundColor,
+                ),
               ),
             ),
           ),
