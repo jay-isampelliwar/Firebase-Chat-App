@@ -27,6 +27,3 @@ flutter run
 # Version
 ## Flutter Version 3.16.1
 ## Dart Version 3.2.1
-
-# Contact Info
-### Email: jay.isampelliwar52@gmail.com
